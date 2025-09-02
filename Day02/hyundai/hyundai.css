@@ -1,0 +1,39 @@
+.car {
+  background-color: #f7f8fb;
+  width: 400px;
+  padding: 14px 20px 14px 20px;
+}
+.car > h3 {
+  font-size: 30px;
+  text-align: center;
+}
+.car > .photo {
+  width: 100%;
+  height: 150px;
+}
+.car > .photo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #cccccc;
+}
+.info > .option {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.info > .option > .title {
+  font-weight: 700;
+}
+.info > .option > .value {
+  color: #7f7f7f;
+  font-weight: 700;
+}

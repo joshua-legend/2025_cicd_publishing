@@ -1,0 +1,28 @@
+section {
+  width: 1000px;
+  height: 1000px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+.r {
+  background-color: red;
+}
+.o {
+  background-color: orange;
+}
+.y {
+  background-color: yellow;
+}
+.g {
+  background-color: green;
+}
+.b {
+  background-color: blue;
+}
