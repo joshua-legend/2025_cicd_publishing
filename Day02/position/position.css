@@ -1,0 +1,11 @@
+.z1 {
+  z-index: 1;
+}
+.z2 {
+  z-index: 2;
+  bottom: 50px;
+}
+.z3 {
+  z-index: 3;
+  bottom: 100px;
+}

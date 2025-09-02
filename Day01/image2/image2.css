@@ -1,0 +1,17 @@
+.container {
+  /* 자식들을 한줄로(가로/세로) */
+  display: flex;
+}
+.story {
+  width: 100px;
+  text-align: center;
+  margin-right: 50px;
+}
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 9999px;
+  object-fit: cover;
+  padding: 5px;
+  border: 2px solid #dd2a7b;
+}

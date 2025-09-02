@@ -1,0 +1,8 @@
+.image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 9999px;
+  border: 2px solid #d91a46;
+  padding: 5px;
+}
