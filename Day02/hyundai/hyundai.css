@@ -1,12 +1,14 @@
 .car {
-  background-color: #f7f8fb;
-  width: 400px;
-  padding: 14px 20px 14px 20px;
+  background-color: #f7f8fc;
+  width: 350px;
+  padding: 40px;
 }
+
 .car > h3 {
   font-size: 30px;
   text-align: center;
 }
+
 .car > .photo {
   width: 100%;
   height: 150px;
@@ -16,24 +18,55 @@
   height: 100%;
   object-fit: contain;
 }
-
-.info {
+.car > .info {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  margin-top: 15px;
-  padding-bottom: 15px;
+  gap: 10px;
   border-bottom: 1px solid #cccccc;
+  padding-bottom: 15px;
 }
-.info > .option {
+
+.car > .info > .option {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.info > .option > .title {
+.car > .info > .option > .title {
   font-weight: 700;
 }
-.info > .option > .value {
-  color: #7f7f7f;
+.car > .info > .option > .value 1 {
   font-weight: 700;
+  color: #7f7f7f;
+}
+
+.car > .interaction {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.car > .interaction > .make {
+  color: white;
+  background-color: #002c55;
+  padding: 14px 26px 14px 26px;
+  border: none;
+  width: 150px;
+  cursor: pointer;
+}
+.car > .interaction > .navi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.car > .interaction > .navi > .circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px;
+  background-color: #007fa8;
 }

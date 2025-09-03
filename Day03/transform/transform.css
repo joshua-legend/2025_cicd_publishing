@@ -1,0 +1,19 @@
+button {
+  padding: 11px 22px;
+  border-radius: 30px;
+  border: none;
+  background-color: #00a5b9;
+  box-shadow: -1px 6px 33px -3px rgba(0, 165, 185, 0.75);
+}
+
+button:hover {
+  background-color: #008d9f;
+}
+
+button > i {
+  color: #fdcd00;
+}
+button > span {
+  color: white;
+  font-weight: 700;
+}
