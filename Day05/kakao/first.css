@@ -1,0 +1,25 @@
+.first {
+  height: 100vh;
+  position: relative;
+}
+
+.first > .photoBG {
+  position: relative;
+  z-index: 2;
+  margin-top: 80px;
+  height: 100%;
+  width: 100%;
+  background-image: url("kakao.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.first > .yellowBG {
+  position: absolute;
+  top: -170px;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: #ffef6b;
+}
