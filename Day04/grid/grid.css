@@ -1,0 +1,12 @@
+section {
+  /* 자식들을 엑셀판,바둑판화 하기 */
+  display: grid;
+  /* repeat(몇줄, 1fr) */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}
